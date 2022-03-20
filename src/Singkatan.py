@@ -5,18 +5,21 @@ from os.path import exists
 
 class Singkatan:
     def __init__(self):
-        self.dictionaryPath = ''
+        self.dictionaryPath = './dict/singkatan.csv'
         self.dictionary = pd.DataFrame(np.array([]))
+        self.processDictionary()
 
     def importDictionary(self, path):
         if not exists(path):
             raise Exception('Dictionary not found')
 
         self.dictionaryPath = path
-        data = pd.read_csv(path, sep=';', header=None)
+        self.processDictionary()
+
+    def processDictionary(self):
+        data = pd.read_csv(self.dictionaryPath, sep=';', header=None)
         self.dictionary = pd.DataFrame(data)
 
     def convert(self, word):
-        for col, item in self.dictionary.iterrows():
-            if word == item[0]:
-                return item[1]
+        result = self.dictionary.loc[self.dictionary[0] == word]
+        return result[1].tolist()[0].strip() if len(result) > 0 else word
