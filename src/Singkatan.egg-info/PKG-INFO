@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: Singkatan
+Version: 0.1.0
+Summary: A simple converter for slang word in indonesian into actual word
+Home-page: https://github.com/khumam/Singkatan
+Author: Khoerul Umam
+Author-email: id.khoerulumam@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: slang converter word in indonesian
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5

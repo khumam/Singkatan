@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/Singkatan/__init__.py
+src/Singkatan/singkatan.py
+src/Singkatan.egg-info/PKG-INFO
+src/Singkatan.egg-info/SOURCES.txt
+src/Singkatan.egg-info/dependency_links.txt
+src/Singkatan.egg-info/requires.txt
+src/Singkatan.egg-info/top_level.txt

@@ -12,7 +12,7 @@ setup(
     package_dir={'': 'src'},
     install_requires=['numpy', 'pandas'],
     classifiers=[
-        'Development Status :: 1 - Developing',
+        'Development Status :: 1 - Planning',
         'Intended Audience :: Science/Research',
         'License :: OSI Approved :: MIT License',
         'Operating System :: POSIX :: Linux',
