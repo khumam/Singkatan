@@ -1,5 +1,7 @@
 README.md
 setup.py
+src/Singkatan/SingkatanConverter.py
+src/Singkatan/__init__.py
 src/Singkatan.egg-info/PKG-INFO
 src/Singkatan.egg-info/SOURCES.txt
 src/Singkatan.egg-info/dependency_links.txt

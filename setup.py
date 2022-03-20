@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='Singkatan',
-    version='0.1.1',
+    version='0.1.3',
     description='A simple converter for slang word in indonesian into actual word',
     long_description='A simple converter for slang word in indonesian into actual word',
     url='https://github.com/khumam/Singkatan',

@@ -3,7 +3,7 @@ import numpy as np
 from os.path import exists
 
 
-class Singkatan:
+class SingkatanConverter:
     def __init__(self):
         self.dictionaryPath = './dict/singkatan.csv'
         self.dictionary = pd.DataFrame(np.array([]))
