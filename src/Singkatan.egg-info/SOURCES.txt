@@ -7,3 +7,5 @@ src/Singkatan.egg-info/SOURCES.txt
 src/Singkatan.egg-info/dependency_links.txt
 src/Singkatan.egg-info/requires.txt
 src/Singkatan.egg-info/top_level.txt
+src/Singkatan/Dictionary/singkatan.csv
+test/test.py

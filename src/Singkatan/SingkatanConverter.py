@@ -1,12 +1,18 @@
 import pandas as pd
 import numpy as np
 from os.path import exists
+import pathlib
 
 
 class SingkatanConverter:
     def __init__(self):
-        self.dictionaryPath = './dict/singkatan.csv'
+        path = pathlib.Path(__file__).parent.absolute()
+        self.dictionaryPath = str(path) + '/Dictionary/singkatan.csv'
         self.dictionary = pd.DataFrame(np.array([]))
+
+        if not exists(self.dictionaryPath):
+            raise Exception('Dictionary not found')
+
         self.processDictionary()
 
     def importDictionary(self, path):

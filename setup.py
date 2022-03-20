@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='Singkatan',
-    version='0.1.3',
+    version='0.1.4',
     description='A simple converter for slang word in indonesian into actual word',
     long_description='A simple converter for slang word in indonesian into actual word',
     url='https://github.com/khumam/Singkatan',
@@ -11,7 +11,7 @@ setup(
     license='MIT',
     packages=find_packages('src'),
     package_dir={'': 'src'},
-    install_requires=['numpy', 'pandas'],
+    install_requires=['numpy', 'pandas', 'pathlib'],
     classifiers=[
         'Development Status :: 4 - Beta',
         'Intended Audience :: Science/Research',
@@ -25,4 +25,7 @@ setup(
         'Programming Language :: Python :: 3.5',
     ],
     keywords='slang converter word in indonesian',
+    package_data={
+        '': ['Dictionary/*.csv'],
+    },
 )
